@@ -1,3 +1,63 @@
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('DancingScript-Regular.ttf');
+}
+
 body{
   background-color: #02010a;
+  color: white;
+  font-family: 'Dancing Script';
+}
+
+body img{
+  display: block;
+  position: relative;
+  background-color: #02010a;
+  margin: 2px;
+}
+
+#Imagen_secundaria{
+  background-color: #d5c75f;
+  border: 1px;
+}
+
+footer img {
+  width: 25px !important;
+  height: 25px!important;
+  border-radius: 5px!important;
+
+}
+
+#Cabecera_index{
+  background-color: #5b7989;
+  border-radius: 10px;
+
+}
+
+#Cabecera_index h1{
+  text-shadow: 2px, #02010a !important;
+}
+
+#contenido {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenPrincipal{
+  background-color: #82c3a6;
+}
+
+
+
+#contenido img{
+  width: 70%;
+}
+
+a:visited{
+  color: yellow;
+}
+
+a:hover{
+  color: green;
 }

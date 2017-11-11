@@ -9,17 +9,6 @@ body{
   font-family: 'Dancing Script';
 }
 
-body img{
-  display: block;
-  position: relative;
-  background-color: #02010a;
-  margin: 2px;
-}
-
-#Imagen_secundaria{
-  background-color: #d5c75f;
-  border: 1px;
-}
 
 footer img {
   width: 25px !important;
@@ -35,7 +24,7 @@ footer img {
 }
 
 #Cabecera_index h1{
-  text-shadow: 2px, #02010a !important;
+  text-shadow: 2px #02010a !important;
 }
 
 #contenido {
@@ -48,10 +37,72 @@ footer img {
   background-color: #82c3a6;
 }
 
-
-
-#contenido img{
+#imagenPrincipal img{
+  margin: auto;
   width: 70%;
+  padding: 10px;
+}
+
+
+
+
+#Imagen_secundaria{
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+  border: 1px;
+}
+
+.Galeria{
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #d5c75f;
+}
+
+
+.imagen1{
+  width: 25%;
+  margin: 2%;
+  order: 6;
+
+}
+
+.imagen2{
+  width: 25%;
+  margin: 2%;
+  order: 5;
+}
+
+.imagen3{
+  width: 25%;
+  margin: 2%;
+  order: 4;
+}
+
+.imagen4{
+  width: 25%;
+  margin: 2%;
+  order: 3;
+}
+
+.imagen5{
+  width: 25%;
+  margin: 2%;
+  order: 2;
+}
+
+.imagen6{
+  width: 25%;
+  margin: 2%;
+  order: 1;
+}
+
+
+
+#Imagen_secundaria img{
+  margin : auto;
+  width: 40%;
 }
 
 a:visited{

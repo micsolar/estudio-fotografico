@@ -19,7 +19,7 @@ footer img {
 
 #Cabecera_index{
   background-color: #5b7989;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 
 }
 
@@ -53,11 +53,22 @@ footer img {
   border: 1px;
 }
 
+#Imagen_secundaria img{
+  width: 80%;
+}
+
 .Galeria{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-flow: row wrap;
   background-color: #d5c75f;
+
+}
+
+#contenido_galeria{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -102,7 +113,7 @@ footer img {
 
 #Imagen_secundaria img{
   margin : auto;
-  width: 40%;
+  padding: 5%;
 }
 
 a:visited{

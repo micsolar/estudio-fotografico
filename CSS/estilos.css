@@ -21,12 +21,29 @@ img{
   box-shadow: 2px 2px #02010a;
 }
 
+#Cabecera_index h1{
+  text-shadow: 2px 2px #02010a;
+}
+
 #Cabecera_index{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
   display: flex;
   flex-direction: row;
 
+}
+
+#Cabecera_index nav{
+  float: right;
+}
+
+#navegador{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#navegador *{
+  padding: 2%;
 }
 
 #titulo{
@@ -144,11 +161,19 @@ img{
 #pie_de_pagina{
   display: flex;
   flex-flow: row wrap;
-
+  border-radius: 0 0 10px 10px;
+  background-color: #c6d5c5;
 }
 
 #pie_de_pagina *{
-    flex-basis: 30%;
+    flex-basis: 25%;
+}
+
+#pie_de_pagina{
+  color: black !important;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
 

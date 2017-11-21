@@ -3,14 +3,21 @@
   src: url('DancingScript-Regular.ttf');
 }
 
-body{
-  background-color: #02010a;
-  color: white;
-  font-family: 'Dancing Script';
+@media (min-width: 900px) {
+  body{
+    background-color: #02010a;
+    color: yellow;
+    font-family: 'Dancing Script';
+  }
+
 }
 
-
-footer img {
+  body{
+    background-color: #02010a;
+    color: white;
+    font-family: 'Dancing Script';
+  }
+  footer img {
   width: 25px !important;
   height: 25px!important;
   border-radius: 5px!important;
@@ -33,13 +40,11 @@ img{
 
 }
 
-#Cabecera_index nav{
-  float: right;
-}
 
 #navegador{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  text-align: center;
 }
 
 #navegador *{
@@ -51,12 +56,6 @@ img{
   float: left;
 }
 
-#navegador{
-  display: flex;
-  flex-direction:row;
-  text-align: left;
-
-}
 
 #contenido {
   width: 900px;
